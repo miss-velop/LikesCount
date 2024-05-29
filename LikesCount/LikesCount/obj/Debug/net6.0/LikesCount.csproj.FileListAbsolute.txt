@@ -1,0 +1,14 @@
+C:\Users\palesat\Downloads\LikesCount\LikesCount\bin\Debug\net6.0\LikesCount.exe
+C:\Users\palesat\Downloads\LikesCount\LikesCount\bin\Debug\net6.0\LikesCount.deps.json
+C:\Users\palesat\Downloads\LikesCount\LikesCount\bin\Debug\net6.0\LikesCount.runtimeconfig.json
+C:\Users\palesat\Downloads\LikesCount\LikesCount\bin\Debug\net6.0\LikesCount.dll
+C:\Users\palesat\Downloads\LikesCount\LikesCount\bin\Debug\net6.0\LikesCount.pdb
+C:\Users\palesat\Downloads\LikesCount\LikesCount\obj\Debug\net6.0\LikesCount.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\palesat\Downloads\LikesCount\LikesCount\obj\Debug\net6.0\LikesCount.AssemblyInfoInputs.cache
+C:\Users\palesat\Downloads\LikesCount\LikesCount\obj\Debug\net6.0\LikesCount.AssemblyInfo.cs
+C:\Users\palesat\Downloads\LikesCount\LikesCount\obj\Debug\net6.0\LikesCount.csproj.CoreCompileInputs.cache
+C:\Users\palesat\Downloads\LikesCount\LikesCount\obj\Debug\net6.0\LikesCount.dll
+C:\Users\palesat\Downloads\LikesCount\LikesCount\obj\Debug\net6.0\refint\LikesCount.dll
+C:\Users\palesat\Downloads\LikesCount\LikesCount\obj\Debug\net6.0\LikesCount.pdb
+C:\Users\palesat\Downloads\LikesCount\LikesCount\obj\Debug\net6.0\LikesCount.genruntimeconfig.cache
+C:\Users\palesat\Downloads\LikesCount\LikesCount\obj\Debug\net6.0\ref\LikesCount.dll
