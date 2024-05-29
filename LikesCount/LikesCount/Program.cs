@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 public class Program
@@ -10,9 +10,28 @@ public class Program
         Console.WriteLine(Likes(new List<string> { "Peter" }));
         Console.WriteLine(Likes(new List<string> { "Jacob", "Alex" })); 
         Console.WriteLine(Likes(new List<string> { "Max", "John", "Mark" })); 
-        Console.WriteLine(Likes(new List<string> { "Alex", "Jacob", "Mark", "Max" })); 
-    }
+        Console.WriteLine(Likes(new List<string> { "Alex", "Jacob", "Mark", "Max" }));
 
+        ////removing duplicates from the file 
+        string inputFilePath = "C:\\Users\\palesat\\OneDrive - Flownamix\\Desktop\\Employee File.csv";
+        string outputFilePath = "C:\\Users\\palesat\\OneDrive - Flownamix\\Desktop\\Employee File1.csv";
+        List<string> lines = File.ReadAllLines(inputFilePath).ToList();
+        HashSet<string> uniqueGuids = new HashSet<string>();
+        List<string> uniqueLines = new List<string>();
+        foreach (string line in lines)
+        {
+            string[] fields = line.Split(','); 
+            string guid = fields[0]; 
+
+            if (!uniqueGuids.Contains(guid))
+            {
+                uniqueGuids.Add(guid);
+                uniqueLines.Add(line);
+            }
+        }
+        File.WriteAllLines(outputFilePath, uniqueLines);
+        Console.WriteLine("Duplicates removed successfully.");
+    }
     public static string Likes(List<string> names)
     {
         switch (names.Count)
