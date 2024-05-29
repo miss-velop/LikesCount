@@ -1,4 +1,6 @@
-1.Orange
+# Front-End
+1.Orange,
+
 2&3
 ```javascript
 document.getElementById("firstDiv").style.background = "pink";
@@ -33,4 +35,11 @@ compareItStrict(5, "5");
     /* this makes the screen to be responsive and adjust to a smaller screen */
 }
 ```
-2.
+2.Benefits of bundling.js is to reduce number of multiple request which reduces the chance of system timing out. and load lot faster.
+3.For the browserto understand sass you need to complie your .scss or sass to css.
+to include the css.
+```javascript
+<link rel="stylesheet" href="style.css"
+```
+3.Tranpilation:You can useatool like Babel to transpilemorden Javascript to into a version that is compatiblewith the browser.Do testing on different browsers.
+
