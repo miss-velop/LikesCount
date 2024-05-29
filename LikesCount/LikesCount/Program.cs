@@ -18,7 +18,7 @@ public class Program
         List<string> lines = File.ReadAllLines(inputFilePath).ToList();
         HashSet<string> uniqueGuids = new HashSet<string>();
         List<string> uniqueLines = new List<string>();
-        foreach (string line in lines)
+        foreach (var line in lines)
         {
             string[] fields = line.Split(','); 
             string guid = fields[0]; 
