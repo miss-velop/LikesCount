@@ -41,5 +41,5 @@ to include the css.
 ```javascript
 <link rel="stylesheet" href="style.css"
 ```
-3.Tranpilation:You can useatool like Babel to transpilemorden Javascript to into a version that is compatiblewith the browser.Do testing on different browsers.
+3.Transpilation:You can useatool like Babel to transpilemorden Javascript to into a version that is compatiblewith the browser.Do testing on different browsers.
 
