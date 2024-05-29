@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-
+namespace LikesCount;
 public class Program
 {
     public static void Main()
