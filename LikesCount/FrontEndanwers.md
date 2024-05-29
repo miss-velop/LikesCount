@@ -17,7 +17,7 @@ function compareIt(num1, num2) {
 
 compareIt(5, "5");
 ```
-1.num1 == num2 i
+1.num1 == num2 is used to compare two variable to seeif the condition is true , if 5=="5" itcan convert the datatype to match the first one and see if the condition is true.
 ```javascript
 2.function compareItStrict(num1, num2) {
     return num1 === num2;
