@@ -23,3 +23,14 @@ compareIt(5, "5");
 
 compareItStrict(5, "5");
 ```
+
+
+## Question 3
+
+1.
+```css
+@media screen and (max-width: 768px) {
+    /* this makes the screen to be responsive and adjust to a smaller screen */
+}
+```
+2.
